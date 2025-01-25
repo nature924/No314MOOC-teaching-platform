@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias alias="admin" type="com.entity.Admin" />
+		<typeAlias alias="teacher" type="com.entity.Teacher" />
+		<typeAlias alias="dept" type="com.entity.Dept" />
+		<typeAlias alias="clazz" type="com.entity.Clazz" />
+		<typeAlias alias="users" type="com.entity.Users" />
+		<typeAlias alias="banner" type="com.entity.Banner" />
+		<typeAlias alias="article" type="com.entity.Article" />
+		<typeAlias alias="course" type="com.entity.Course" />
+		<typeAlias alias="sectionx" type="com.entity.Sectionx" />
+		<typeAlias alias="single" type="com.entity.Single" />
+		<typeAlias alias="mulit" type="com.entity.Mulit" />
+		<typeAlias alias="fillin" type="com.entity.Fillin" />
+		<typeAlias alias="wrongs" type="com.entity.Wrongs" />
+		<typeAlias alias="score" type="com.entity.Score" />
+		<typeAlias alias="vedio" type="com.entity.Vedio" />
+		<typeAlias alias="topic" type="com.entity.Topic" />
+		<typeAlias alias="bbs" type="com.entity.Bbs" />
+		<typeAlias alias="rebbs" type="com.entity.Rebbs" />
+	</typeAliases>
+	<mappers>
+		<mapper resource="mapper/admin.xml" />
+		<mapper resource="mapper/teacher.xml" />
+		<mapper resource="mapper/dept.xml" />
+		<mapper resource="mapper/clazz.xml" />
+		<mapper resource="mapper/users.xml" />
+		<mapper resource="mapper/banner.xml" />
+		<mapper resource="mapper/article.xml" />
+		<mapper resource="mapper/course.xml" />
+		<mapper resource="mapper/sectionx.xml" />
+		<mapper resource="mapper/single.xml" />
+		<mapper resource="mapper/mulit.xml" />
+		<mapper resource="mapper/fillin.xml" />
+		<mapper resource="mapper/wrongs.xml" />
+		<mapper resource="mapper/score.xml" />
+		<mapper resource="mapper/vedio.xml" />
+		<mapper resource="mapper/topic.xml" />
+		<mapper resource="mapper/bbs.xml" />
+		<mapper resource="mapper/rebbs.xml" />
+	</mappers>
+</configuration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
